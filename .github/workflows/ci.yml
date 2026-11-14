@@ -46,4 +46,4 @@ jobs:
           java-version: "21"
           cache: maven
       - name: Compile and test the drop tables
-        run: mvn -B -q test
+        run: mvn -B --no-transfer-progress test
