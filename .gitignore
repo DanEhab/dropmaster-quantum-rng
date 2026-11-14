@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Java / Eclipse / Maven
+bin/
+target/
+
+# OS
+.DS_Store
